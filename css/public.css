@@ -298,12 +298,12 @@ a{
 	
 }
 .work-img li img{
-	width: 100%;
 	height: 100%;
 	float: left;
 	filter: grayscale(100%);
 	transition:0.5s;
-	
+	position: absolute;
+    left: -50%;
 }
 .work-img li{
 	width: 48%;
@@ -352,10 +352,7 @@ a{
 .album-img{
 	width: 1100px;
 	height: 100%;
-	position: absolute;
-	left: 50%;
-	top: 0;
-	margin-left: -500px;
+	
 	text-align: center;	
 	padding-top:50px;
 }
@@ -672,6 +669,7 @@ to {width: 50%;}
 	line-height: 0px;
 	overflow: hidden;
 	transition:all 0.5s;
+	color:#fff;
 }
 .weixin2{
 	background: #527bbb;
